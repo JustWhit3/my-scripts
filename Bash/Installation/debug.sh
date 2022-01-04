@@ -1,0 +1,1 @@
+/home/gianluca/osmanip/scripts/debug.sh
