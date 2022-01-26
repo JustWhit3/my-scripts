@@ -14,6 +14,10 @@ This repository contains some scripts I write for other personal and working pro
 
 If you want to use one of my scripts please cite them with this [template citation file](https://github.com/JustWhit3/my-scripts/blob/main/CITATION.cff).
 
+All my posted scripts are and will stay **free**, but if you want to support me with a donation it would be really appreciated! 
+
+<a href="https://www.buymeacoffee.com/JustWhit33" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Repository diagram structure
 
 ```
