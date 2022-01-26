@@ -1,4 +1,15 @@
-# my-scripts
+<p align="center"><img src="https://github.com/JustWhit3/my-scripts/blob/main/img/logo.svg" height=220></p>
+
+<h3 align="center">A collection of scripts I developed for personal and working projects</h3>
+<p align="center">
+    <img title="v1.0" alt="v1.0" src="https://img.shields.io/badge/version-v1.0-informational?style=flat-square"
+    <a href="LICENSE">
+        <img title="MIT License" alt="license" src="https://img.shields.io/badge/license-MIT-informational?style=flat-square">
+    </a>
+	<img title="Python 3.8" alt="Python 3.8" src="https://img.shields.io/badge/Python-3.8-informational?style=flat-square">
+	<img title="Bash" alt="Bash" src="https://img.shields.io/badge/Bash--informational?style=flat-square">
+    </a>
+</p>
 
 ## Table of contents
 
