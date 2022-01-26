@@ -48,6 +48,7 @@ my-scripts/
 │   │   ├── update.sh
 │   ├── debugging/
 │   │   ├── debug.sh
+├── img/
 ├── README.mc
 ├── LICENSE/
 ```
