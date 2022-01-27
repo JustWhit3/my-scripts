@@ -30,7 +30,7 @@ def main():
     #====================================================
     
     #Taking the .root file.
-    f = TFile ("/home/ATLAS-T3/gbianco/ttbarDiffXsLeptonJets/project/impact_parameters_histograms.root")
+    f = TFile ("rootfile_name.root")
     
     #Extracting the histograms from the .root file.
     variables = [ "d0significance", "z0sintheta" ]

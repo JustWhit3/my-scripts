@@ -8,7 +8,7 @@ gROOT.SetBatch()
 #     PREPARING THE DATA
 #====================================================
 #Taking the .root file.
-f = TFile ("user.mromano.21119792._000057.ljets.output.root")
+f = TFile ("rootfile_name.root")
 
 #Extracting the Trees from the .root file.
 t_reco = f.Get ("nominal")
