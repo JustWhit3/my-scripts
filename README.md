@@ -69,6 +69,7 @@ my-scripts/
 ### bash
 
 - [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
+    > More information about how to use this script can be found [here](https://github.com/JustWhit3/osmanip/blob/main/doc/Download%20and%20install.md#:~:text=repository%20home%20directory.-,debug.sh,./scripts/debug.sh%20cppcheck%20%5Bfile.cpp%5D,-%C2%A9%202022%20GitHub%2C%20Inc)
 
 - [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to install headers and libraries into the system.
 
