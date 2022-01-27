@@ -60,8 +60,8 @@ def initialize_basic( args ):
 
    histogram = {}
    histogram_old = {}
-   standard_path = "../../scripts_WbWb_dilepton_fullrun2/results/"
-   standard_path_old = "../../scripts_WbWb_dilepton_fullrun2/results_backup/"  
+   standard_path = "../../path_to_folder"
+   standard_path_old = "../../path_to_folder_old"  
    lparams = { 'xoffset' : 0.17, 'yoffset' : 0.38, 'width'   : 0.80, 'height'  : 0.04 }
    
    if args.old:
