@@ -31,23 +31,24 @@ All my posted scripts are and will stay **free**, but if you want to support me 
 
 ## Repository diagram structure
 
-```
+```txt
 my-scripts/
-├── python/
-│   ├── data analysis/
-│   │   ├── impact parameters/
-│   │   │   ├── compare_plots.py
-│   │   │   ├── impact_parameters_1D.py
-│   │   │   ├── impact_parameters_1D.py
-│   │   ├── WbWb/
-│   │   │   ├── OverlapSelections.py
-├── bash/
-│   ├── installation/
-│   │   ├── install.sh
-│   │   ├── uninstall.sh
-│   │   ├── update.sh
-│   ├── debugging/
-│   │   ├── debug.sh
+├── scripts/
+│   ├── python/
+│   │   ├── data analysis/
+│   │   │   ├── impact parameters/
+│   │   │   │   ├── compare_plots.py
+│   │   │   │   ├── impact_parameters_1D.py
+│   │   │   │   ├── impact_parameters_1D.py
+│   │   │   ├── WbWb/
+│   │   │   │   ├── OverlapSelections.py
+│   ├── bash/
+│   │   ├── installation/
+│   │   │   ├── install.sh
+│   │   │   ├── uninstall.sh
+│   │   │   ├── update.sh
+│   │   ├── debugging/
+│   │   │   ├── debug.sh
 ├── img/
 ├── README.mc
 ├── LICENSE/
