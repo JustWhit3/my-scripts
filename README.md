@@ -57,22 +57,22 @@ my-scripts/
 
 ### python
 
-- [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/impact_parameters_1D.py): script used to produce 1D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
+- [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/impact_parameters_1D.py): script used to produce 1D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
 
-- [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/impact_parameters_2D.py): script used to produce 2D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
+- [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/impact_parameters_2D.py): script used to produce 2D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
 
-- [**compare_plots.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/compare_plots.py): script used to compare impact parameters plots produced with [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/impact_parameters_2D.py) and [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/Python/data%20analysis/Impact%20parameters/impact_parameters_1D.py) scripts, using the pyROOT framework.
+- [**compare_plots.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/compare_plots.py): script used to compare impact parameters plots produced with [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/impact_parameters_2D.py) and [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/Python/data%20analysis/Impact%20parameters/impact_parameters_1D.py) scripts, using the pyROOT framework.
 
-- [**OverlapSelections.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/WbWb/OverlapSelections.py): script used to produce unfolding plots with overlapped b-tagging selections for each systematic. This script is produced with the pyROOT framework and is used in the ATLAS WbWb analysis.
+- [**OverlapSelections.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/WbWb/OverlapSelections.py): script used to produce unfolding plots with overlapped b-tagging selections for each systematic. This script is produced with the pyROOT framework and is used in the ATLAS WbWb analysis.
     > NOTE on the usage: if this script is used with `./OverlapSelections` command it will produce overlapped plots for each selection of the `selections` dict. If it is used instead with the option `-o [selection_name]`, it will produce a plot with the `[selection_name]` selection modified (changes are given in the input file) and overlaps it to the real `[selection_name]`.
 
 ### bash
 
-- [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
+- [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
     > More information about how to use this script can be found [here](https://github.com/JustWhit3/osmanip/blob/main/doc/Download%20and%20install.md#:~:text=repository%20home%20directory.-,debug.sh,./scripts/debug.sh%20cppcheck%20%5Bfile.cpp%5D,-%C2%A9%202022%20GitHub%2C%20Inc)
 
-- [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to install headers and libraries into the system.
+- [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/install.sh): script used to install headers and libraries into the system.
 
-- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to uninstall headers and libraries into the system.
+- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
 
-- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to update a repository.
+- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/update.sh): script used to update a repository.
