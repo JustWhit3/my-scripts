@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/JustWhit3/my-scripts/blob/main/img/logo.svg" height=220></p>
 
-<h3 align="center">A collection of scripts I developed for personal and working projects</h3>
+<h3 align="center">A collection of personal Python and Bash scripts</h3>
 <p align="center">
     <img title="v1.0" alt="v1.0" src="https://img.shields.io/badge/version-v1.0-informational?style=flat-square"
     <a href="LICENSE">
