@@ -50,6 +50,7 @@ my-scripts/
 │   │   │   ├── install.sh
 │   │   │   ├── uninstall.sh
 │   │   │   ├── update.sh
+│   │   │   ├── system_update.sh
 │   │   ├── debugging/
 │   │   │   ├── debug.sh
 ├── img/
@@ -77,6 +78,8 @@ my-scripts/
 
 - [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to install headers and libraries into the system.
 
-- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to uninstall headers and libraries into the system.
+- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
 
-- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/install.sh): script used to update a repository.
+- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/update.sh): script used to update a repository.
+
+- [**system_update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/system_update.sh): script used to update the whole system of your computer (not only `apt`).
