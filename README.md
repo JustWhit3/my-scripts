@@ -41,6 +41,8 @@ my-scripts/
 │   │   │   │   ├── impact_parameters_1D.py
 │   │   │   ├── WbWb/
 │   │   │   │   ├── OverlapSelections.py
+│   │   ├── file management/
+│   │   │   ├── size_of_dir.py
 │   ├── bash/
 │   │   ├── installation/
 │   │   │   ├── install.sh
@@ -66,6 +68,9 @@ my-scripts/
 
 - [**OverlapSelections.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/WbWb/OverlapSelections.py): script used to produce unfolding plots with overlapped b-tagging selections for each systematic. This script is produced with the pyROOT framework and is used in the ATLAS WbWb analysis.
     > NOTE on the usage: if this script is used with `./OverlapSelections` command it will produce overlapped plots for each selection of the `selections` dict. If it is used instead with the option `-o [selection_name]`, it will produce a plot with the `[selection_name]` selection modified (changes are given in the input file) and overlaps it to the real `[selection_name]`.
+
+- [**size_of_dir.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%management/size_of_dir.py): script used to compute the size of a particular directory
+    > NOTE on the usage: it takes 3 arguments, `--path` is the directory path, `--message` is a flag to turn on/off the final message and `--exception` takes an extra file which should be removed from the final size count.
 
 ### bash
 
