@@ -20,25 +20,25 @@ def main():
     
     # Parser settings
     parser = argparse.ArgumentParser( description = "Parses the folder path." )
-    parser.add_argument( "--path", default = "", help = "The folder path." )
+    parser.add_argument( "--paths", default = "", help = "The folder path." )
     parser.add_argument( "--message", default = "off", help = "The final output message." )
     parser.add_argument( "--exception", default = "", help = "An extra file/dir to be ignored." )
     args = parser.parse_args()
     
     # Variables
     folder_size = 0
-    folder_path = args.path
     
     # Get size of the path
-    for path, dirs, files in os.walk( folder_path ):
-        for file in files:
-            if file != args.exception:
-                fp = os.path.join( path, file )
-                folder_size += os.path.getsize( fp )
+    for path_elem in args.paths.split( " " ):
+        for path, dirs, files in os.walk( path_elem ):
+            for file in files:
+                if file != args.exception:
+                    fp = os.path.join( path, file )
+                    folder_size += os.path.getsize( fp )
     
     # Printing the result
     if args.message == "on":
-        print( "Size of folder \"{}\" is:".format( args.path ), size( folder_size ) )
+        print( "Size of folders \"{}\" is:".format( "\", \"".join( args.paths.split( " " ) ) ), size( folder_size ) )
     elif args.message == "off":
         print( size( folder_size ) )
     else:
