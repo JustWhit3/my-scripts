@@ -75,6 +75,9 @@ my-scripts/
 - [**dirs_remover.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%management/dirs_remover.py): script used to efficiently remove directories in parallel.
     > NOTE on the usage: it takes 1 argument, `--dirs` which contains path to dirs to be removed (in form of `"dir_1 dir_2 dir_3"`).
 
+- [**send_whatsapp.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/social%utils/send_whatsapp.py): script used to send whatsapp messages using Twilio.
+    > NOTE on the usage: it takes 2 arguments, `--number` which is your personal number (with prefix and +) and `--message` which is the message to be sent.
+
 ### bash
 
 - [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
