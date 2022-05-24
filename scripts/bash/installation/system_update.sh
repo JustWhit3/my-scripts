@@ -7,6 +7,9 @@ sudo apt upgrade
 # Snap
 sudo snap refresh
 
+# Cargo
+cargo install-update
+
 # Conda
 conda update conda
 conda update conda-build
