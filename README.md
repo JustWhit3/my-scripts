@@ -43,6 +43,9 @@ my-scripts/
 │   │   │   │   ├── OverlapSelections.py
 │   │   ├── file management/
 │   │   │   ├── size_of_dir.py
+│   │   │   ├── dirs_remover.py
+│   │   ├── social utils/
+│   │   │   ├── send_whatsapp.py
 │   ├── bash/
 │   │   ├── installation/
 │   │   │   ├── install.sh
