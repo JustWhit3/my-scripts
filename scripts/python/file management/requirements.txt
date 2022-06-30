@@ -1,0 +1,4 @@
+hurry==1.1
+hurry.filesize==0.9
+numpy==1.17.4
+termcolor==1.1.0

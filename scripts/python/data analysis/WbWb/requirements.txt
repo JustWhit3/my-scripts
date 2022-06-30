@@ -1,0 +1,3 @@
+helper_functions==2.0.11
+numpy==1.17.4
+ROOT==0.0.1

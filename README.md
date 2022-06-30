@@ -32,6 +32,9 @@ If you want to use one of my scripts please cite them with this [template citati
 
 ```txt
 my-scripts/
+├── .github/
+│   ├── workflows/
+│   │   ├── codeql-analysis.yml
 ├── scripts/
 │   ├── python/
 │   │   ├── data analysis/
@@ -91,5 +94,3 @@ my-scripts/
 - [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
 
 - [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/update.sh): script used to update a repository.
-
-- [**system_update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/system_update.sh): script used to update the whole system of your computer (not only `apt`).
