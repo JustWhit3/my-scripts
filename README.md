@@ -75,13 +75,13 @@ my-scripts/
 - [**OverlapSelections.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/WbWb/OverlapSelections.py): script used to produce unfolding plots with overlapped b-tagging selections for each systematic. This script is produced with the pyROOT framework and is used in the ATLAS WbWb analysis.
     > NOTE on the usage: if this script is used with `./OverlapSelections` command it will produce overlapped plots for each selection of the `selections` dict. If it is used instead with the option `-o [selection_name]`, it will produce a plot with the `[selection_name]` selection modified (changes are given in the input file) and overlaps it to the real `[selection_name]`.
 
-- [**size_of_dir.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%management/size_of_dir.py): script used to compute the size of a particular directory.
+- [**size_of_dir.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%20management/size_of_dir.py): script used to compute the size of a particular directory.
     > NOTE on the usage: it takes 3 arguments, `--paths` contains the directory paths (in form of `"path_1 path_2 path_n"`), `--message` is a flag to turn on/off the final message and `--exception` takes an extra file which should be removed from the final size count (it takes only the file name not the path).
 
-- [**dirs_remover.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%management/dirs_remover.py): script used to efficiently remove directories in parallel.
+- [**dirs_remover.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%20management/dirs_remover.py): script used to efficiently remove directories in parallel.
     > NOTE on the usage: it takes 1 argument, `--dirs` which contains path to dirs to be removed (in form of `"dir_1 dir_2 dir_3"`).
 
-- [**send_whatsapp.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/social%utils/send_whatsapp.py): script used to send whatsapp messages using Twilio.
+- [**send_whatsapp.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/social%20utils/send_whatsapp.py): script used to send whatsapp messages using Twilio.
     > NOTE on the usage: it takes 2 arguments, `--number` which is your personal number (with prefix and +) and `--message` which is the message to be sent.
 
 ### bash
@@ -91,6 +91,6 @@ my-scripts/
 
 - [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/install.sh): script used to install headers and libraries into the system.
 
-- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
+- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
 
-- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/bash/installation/update.sh): script used to update a repository.
+- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/update.sh): script used to update a repository.
