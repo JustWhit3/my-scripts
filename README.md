@@ -18,6 +18,7 @@
 
 - [Introduction](#introduction)
 - [Python](#python)
+  - [`size_of_dir.py`](#sizeofdirpy)
 - [Bash](#bash)
 
 ## Introduction
@@ -30,7 +31,7 @@ If you want to use one of my scripts please cite them with this [template citati
 
 ## python
 
-### [`size_of_dir.py`](https://github.com/JustWhit3/my-scripts/tree/main/python/size_of_dir)
+#### [`size_of_dir.py`](https://github.com/JustWhit3/my-scripts/tree/main/python/size_of_dir)
 
 **Description**: script used to compute the size of a single or more directories in a precise way, by considering also all the subdirectories and files.
 
