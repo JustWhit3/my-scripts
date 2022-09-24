@@ -18,7 +18,7 @@
 
 - [Introduction](#introduction)
 - [Python](#python)
-  - [`size_of_dir.py`](#sizeofdirpy)
+  - [size_of_dir.py](#sizeofdirpy)
 - [Bash](#bash)
 
 ## Introduction
@@ -29,9 +29,9 @@ For each script folder there is a `requirements.txt` file which contains prerequ
 
 If you want to use one of my scripts please cite them with this [template citation file](https://github.com/JustWhit3/my-scripts/blob/main/CITATION.cff).
 
-## python
+## Python
 
-#### [`size_of_dir.py`](https://github.com/JustWhit3/my-scripts/tree/main/python/size_of_dir)
+### [size_of_dir.py](https://github.com/JustWhit3/my-scripts/tree/main/python/size_of_dir)
 
 **Description**: script used to compute the size of a single or more directories in a precise way, by considering also all the subdirectories and files.
 
@@ -41,7 +41,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - `--message`: a flag to turn on/off the final message.
 - `--exception`: exclude a particular file from the final count.
 
-### [`dirs_remover.py`](https://github.com/JustWhit3/my-scripts/tree/main/python/dirs_remover)
+### [dirs_remover.py](https://github.com/JustWhit3/my-scripts/tree/main/python/dirs_remover)
 
 **Description**: script used to efficiently remove directories in parallel.
 
@@ -49,7 +49,7 @@ If you want to use one of my scripts please cite them with this [template citati
 
 - `--dirs`: contains path to dirs to be removed in parallel. Example: `"dir_1 dir_2 dir_3"`.
 
-### [`send_whatsapp.py`](https://github.com/JustWhit3/my-scripts/tree/main/python/send_whatsapp)
+### [send_whatsapp.py](https://github.com/JustWhit3/my-scripts/tree/main/python/send_whatsapp)
 
 **Description**: script used to send whatsapp messages using [Twilio API](https://www.twilio.com/go/twilio-brand-sales-it-1?utm_source=google&utm_medium=cpc&utm_term=twilio&utm_campaign=G_S_EMEA_Brand_Mature_ITA_IT_NV&cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&gclid=Cj0KCQjw1bqZBhDXARIsANTjCPJl_as8WIkOJAThL-NlAH7ZpkR94dFMUdvH64ISyvYz-e6N0HK5iroaAvQ2EALw_wcB). It can be easily used for bots.
 
@@ -58,7 +58,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - `--number`: your personal telephone number (with prefix and +).
 - `--message`: the message to be sent.
 
-## bash
+## Bash
 
 - [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
     > More information about how to use this script can be found [here](https://github.com/JustWhit3/osmanip/blob/main/doc/Download%20and%20install.md#:~:text=repository%20home%20directory.-,debug.sh,./scripts/debug.sh%20cppcheck%20%5Bfile.cpp%5D,-%C2%A9%202022%20GitHub%2C%20Inc)
