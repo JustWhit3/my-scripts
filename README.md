@@ -24,6 +24,7 @@
 - [Bash](#bash)
   - [debug.sh](#debugsh)
   - [update.sh](#updatesh)
+  - [setup_env.sh](#setupenvsh)
 ## Introduction
 
 This repository contains some scripts I write for other personal and working projects. I keep them here for two reasons: first, to keep them easily accessible to me in case of the needing to retrieve some parts of code; secondly, to let everybody accessing them freely.
@@ -85,3 +86,18 @@ If you want to use one of my scripts please cite them with this [template citati
 
 - [wget](https://www.gnu.org/software/wget/).
 - [unzip](https://linuxhint.com/unzip_command_-linux/).
+
+### [setup_env.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/setup_env.sh)
+
+**Description**: script used to create a virtual environment specifying Python version, environment name and requirements file. If it is the first time you run it, a virtual environment will be created and activated and prerequisites Python modules will be installed. From the second time on, the script will simply activate the virtual environment.
+> :warning: Launch it with `source setup_env.sh` since `source` command is used into the script.
+
+**Requirements**:
+
+- [virtualenv](https://mannimal.blog/2019/07/04/creating-a-virtualenv-with-python-3-7-3/).
+
+**Arguments**:
+
+- `$1`: Python version.
+- `$2`: Virtual environment name.
+- `$3`: Requirements file.
