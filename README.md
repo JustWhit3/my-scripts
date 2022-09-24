@@ -19,8 +19,13 @@
 - [Introduction](#introduction)
 - [Python](#python)
   - [size_of_dir.py](#sizeofdirpy)
+  - [dirs_remover.py](#dirsremoverpy)
+  - [send_whatsapp.py](#sendwhatsapppy)
 - [Bash](#bash)
-
+  - [debug_cpp.sh](#debugcppsh)
+  - [install_cpp.sh](#installcppsh)
+  - [uninstall_cpp.sh](#uninstallcppsh)
+  - [update.sh](#updatesh)
 ## Introduction
 
 This repository contains some scripts I write for other personal and working projects. I keep them here for two reasons: first, to keep them easily accessible to me in case of the needing to retrieve some parts of code; secondly, to let everybody accessing them freely.
@@ -60,11 +65,23 @@ If you want to use one of my scripts please cite them with this [template citati
 
 ## Bash
 
-- [**debug.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/debugging/debug.sh): script used to debug C++ code with Valgrind and cppcheck.
-    > More information about how to use this script can be found [here](https://github.com/JustWhit3/osmanip/blob/main/doc/Download%20and%20install.md#:~:text=repository%20home%20directory.-,debug.sh,./scripts/debug.sh%20cppcheck%20%5Bfile.cpp%5D,-%C2%A9%202022%20GitHub%2C%20Inc)
+### [debug_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/debug.sh)
 
-- [**install.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/install.sh): script used to install headers and libraries into the system.
+**Description**: script used to debug C++ code with Valgrind and cppcheck.
 
-- [**uninstall.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/uninstall.sh): script used to uninstall headers and libraries into the system.
+**Arguments**:
 
-- [**update.sh**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/installation/update.sh): script used to update a repository.
+- `$1`: debug option (cppcheck, memcheck, helgrind etc...).
+- `$2`: source file to be debugged.
+
+### [install_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/install_cpp.sh)
+
+**Description**: script used to install headers and libraries of a project into the system.
+
+### [uninstall_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/uninstall_cpp.sh)
+
+**Description**: script used to uninstall headers and libraries of a project from the system.
+
+### [update.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/update.sh)
+
+**Description**: script used to update a repository without using git.
