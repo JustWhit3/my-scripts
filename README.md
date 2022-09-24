@@ -22,9 +22,7 @@
   - [dirs_remover.py](#dirsremoverpy)
   - [send_whatsapp.py](#sendwhatsapppy)
 - [Bash](#bash)
-  - [debug_cpp.sh](#debugcppsh)
-  - [install_cpp.sh](#installcppsh)
-  - [uninstall_cpp.sh](#uninstallcppsh)
+  - [debug.sh](#debugsh)
   - [update.sh](#updatesh)
 ## Introduction
 
@@ -65,23 +63,25 @@ If you want to use one of my scripts please cite them with this [template citati
 
 ## Bash
 
-### [debug_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/debug.sh)
+### [debug.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/debug.sh)
 
-**Description**: script used to debug C++ code with Valgrind and cppcheck.
+**Description**: script used to debug C/C++ code with Valgrind and cppcheck.
+
+**Requirements**:
+
+- [cppcheck](https://cppcheck.sourceforge.io/).
+- [Valgrind](https://valgrind.org/).
 
 **Arguments**:
 
 - `$1`: debug option (cppcheck, memcheck, helgrind etc...).
 - `$2`: source file to be debugged.
 
-### [install_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/install_cpp.sh)
-
-**Description**: script used to install headers and libraries of a project into the system.
-
-### [uninstall_cpp.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/uninstall_cpp.sh)
-
-**Description**: script used to uninstall headers and libraries of a project from the system.
-
 ### [update.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/update.sh)
 
 **Description**: script used to update a repository without using git.
+
+**Requirements**:
+
+- [wget](https://www.gnu.org/software/wget/).
+- [unzip](https://linuxhint.com/unzip_command_-linux/).
