@@ -17,7 +17,6 @@
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Repository diagram structure](#repository-diagram-structure)
 - [List of scripts](#list-of-scripts)
   - [python](#python)
   - [bash](#bash)
@@ -28,52 +27,9 @@ This repository contains some scripts I write for other personal and working pro
 
 If you want to use one of my scripts please cite them with this [template citation file](https://github.com/JustWhit3/my-scripts/blob/main/CITATION.cff).
 
-## Repository diagram structure
-
-```txt
-my-scripts/
-├── .github/
-│   ├── workflows/
-│   │   ├── codeql-analysis.yml
-├── scripts/
-│   ├── python/
-│   │   ├── data analysis/
-│   │   │   ├── impact parameters/
-│   │   │   │   ├── compare_plots.py
-│   │   │   │   ├── impact_parameters_1D.py
-│   │   │   │   ├── impact_parameters_1D.py
-│   │   │   ├── WbWb/
-│   │   │   │   ├── OverlapSelections.py
-│   │   ├── file management/
-│   │   │   ├── size_of_dir.py
-│   │   │   ├── dirs_remover.py
-│   │   ├── social utils/
-│   │   │   ├── send_whatsapp.py
-│   ├── bash/
-│   │   ├── installation/
-│   │   │   ├── install.sh
-│   │   │   ├── uninstall.sh
-│   │   │   ├── update.sh
-│   │   │   ├── system_update.sh
-│   │   ├── debugging/
-│   │   │   ├── debug.sh
-├── img/
-├── README.mc
-├── LICENSE/
-```
-
 ## List of scripts
 
 ### python
-
-- [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/impact_parameters_1D.py): script used to produce 1D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
-
-- [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/impact_parameters_2D.py): script used to produce 2D impact parameters plots, using the pyROOT framework, for some of my [master thesis](https://www.researchgate.net/publication/348806406_Study_of_the_quantum_interference_between_singly_and_doubly_resonant_top-quark_production_in_proton-proton_collisions_at_the_LHC_with_the_ATLAS_detector) studies (see Appendix A).
-
-- [**compare_plots.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/impact%20parameters/compare_plots.py): script used to compare impact parameters plots produced with [**impact_parameters_2D.py**](https://github.com/JustWhit3/my-scripts/blob/main/python/data%20analysis/impact%20parameters/impact_parameters_2D.py) and [**impact_parameters_1D.py**](https://github.com/JustWhit3/my-scripts/blob/main/Python/data%20analysis/Impact%20parameters/impact_parameters_1D.py) scripts, using the pyROOT framework.
-
-- [**OverlapSelections.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/data%20analysis/WbWb/OverlapSelections.py): script used to produce unfolding plots with overlapped b-tagging selections for each systematic. This script is produced with the pyROOT framework and is used in the ATLAS WbWb analysis.
-    > NOTE on the usage: if this script is used with `./OverlapSelections` command it will produce overlapped plots for each selection of the `selections` dict. If it is used instead with the option `-o [selection_name]`, it will produce a plot with the `[selection_name]` selection modified (changes are given in the input file) and overlaps it to the real `[selection_name]`.
 
 - [**size_of_dir.py**](https://github.com/JustWhit3/my-scripts/blob/main/scripts/python/file%20management/size_of_dir.py): script used to compute the size of a particular directory.
     > NOTE on the usage: it takes 3 arguments, `--paths` contains the directory paths (in form of `"path_1 path_2 path_n"`), `--message` is a flag to turn on/off the final message and `--exception` takes an extra file which should be removed from the final size count (it takes only the file name not the path).
