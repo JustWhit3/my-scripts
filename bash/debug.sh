@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# $1 = tool name.
+# $2 = c/c++ file to be checked.
+
+#====================================================
+#     Metadata
+#====================================================
+# File name:  print.hpp
+# Author:     Gianluca Bianco (biancogianluca9@gmail.com)
+# Date:       2022-01-14
+# Copyright:  (c) 2022 Gianluca Bianco under the MIT license.
+
 #====================================================
 #     TOOL FUNCTION
 #====================================================

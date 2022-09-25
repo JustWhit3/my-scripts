@@ -4,6 +4,14 @@
 # $2: Virtual environment name.
 # $3: Requirements file. 
 
+#====================================================
+#     Metadata
+#====================================================
+# File name:  print.hpp
+# Author:     Gianluca Bianco (biancogianluca9@gmail.com)
+# Date:       2022-01-14
+# Copyright:  (c) 2022 Gianluca Bianco under the MIT license.
+
 # Variables
 version=$1
 venv=$2

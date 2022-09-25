@@ -1,6 +1,14 @@
 #!/bin/bash
 
 #====================================================
+#     Metadata
+#====================================================
+# File name:  print.hpp
+# Author:     Gianluca Bianco (biancogianluca9@gmail.com)
+# Date:       2022-01-14
+# Copyright:  (c) 2022 Gianluca Bianco under the MIT license.
+
+#====================================================
 #     UPDATING THE REPOSITORY
 #====================================================
 echo ""
