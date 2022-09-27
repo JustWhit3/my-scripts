@@ -25,6 +25,7 @@
   - [debug.sh](#debugsh)
   - [update.sh](#updatesh)
   - [setup_env.sh](#setupenvsh)
+  - [include_tests.sh](#includetestssh)
 ## Introduction
 
 This repository contains some scripts I write for other personal and working projects. I keep them here for two reasons: first, to keep them easily accessible to me in case of the needing to retrieve some parts of code; secondly, to let everybody accessing them freely.
@@ -101,3 +102,15 @@ If you want to use one of my scripts please cite them with this [template citati
 - `$1`: Python version.
 - `$2`: Virtual environment name.
 - `$3`: Requirements file.
+
+### [include_tests.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/include_tests.sh)
+
+**Description**: script used to launch include tests of a .h/.hpp c++ file. Basically it tests if the file can be included correctly in a generic program and if there are no inline errors in case of multiple inclusion from different files.
+
+**Requirements**:
+
+- [g++](https://gcc.gnu.org/) compiler.
+
+**Arguments**:
+
+- `$1`: the input .h/.hpp file to be tested for include. Use complete path in string format.

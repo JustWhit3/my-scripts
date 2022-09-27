@@ -6,7 +6,7 @@
 #====================================================
 #     Metadata
 #====================================================
-# File name:  print.hpp
+# File name:  debug.sh
 # Author:     Gianluca Bianco (biancogianluca9@gmail.com)
 # Date:       2022-01-14
 # Copyright:  (c) 2022 Gianluca Bianco under the MIT license.
