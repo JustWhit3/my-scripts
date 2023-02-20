@@ -26,6 +26,8 @@
   - [update.sh](#updatesh)
   - [setup_env.sh](#setupenvsh)
   - [include_tests.sh](#includetestssh)
+- [Stargazers over time](#stargazers-over-time)
+
 ## Introduction
 
 This repository contains some scripts I write for other personal and working projects. I keep them here for two reasons: first, to keep them easily accessible to me in case of the needing to retrieve some parts of code; secondly, to let everybody accessing them freely.
@@ -114,3 +116,7 @@ If you want to use one of my scripts please cite them with this [template citati
 **Arguments**:
 
 - `$1`: the input .h/.hpp file to be tested for include. Use complete path in string format.
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/JustWhit3/my-scripts.svg)](https://starchart.cc/JustWhit3/my-scripts)
