@@ -21,6 +21,7 @@
   - [size_of_dir.py](#sizeofdirpy)
   - [dirs_remover.py](#dirsremoverpy)
   - [send_whatsapp.py](#sendwhatsapppy)
+  - [system_info.py](#systeminfopy)
 - [Bash](#bash)
   - [debug.sh](#debugsh)
   - [update.sh](#updatesh)
@@ -64,6 +65,10 @@ If you want to use one of my scripts please cite them with this [template citati
 
 - `--number`: your personal telephone number (with prefix and +).
 - `--message`: the message to be sent.
+
+### [system_info.py](https://github.com/JustWhit3/my-scripts/tree/main/python/system_info)
+
+**Description**: script used to get current device information (RAM, CPU, etc...).
 
 ## Bash
 
