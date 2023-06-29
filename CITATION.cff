@@ -4,7 +4,7 @@ authors:
 - family-names: "Gianluca"
   given-names: "Bianco"
 title: "my-scripts"
-version: 1.3.0
+version: 1.4.0
 doi: https://zenodo.org/badge/latestdoi/444528109
 date-released: 2021-12-25
 url: "https://github.com/JustWhit3/my-scripts"

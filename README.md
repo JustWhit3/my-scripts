@@ -2,7 +2,7 @@
 
 <h3 align="center">A collection of personal scripts</h3>
 <p align="center">
-    <img title="v1.3" alt="v1.3" src="https://img.shields.io/badge/version-v1.3-informational?style=flat-square"
+    <img title="v1.4" alt="v1.4" src="https://img.shields.io/badge/version-v1.4-informational?style=flat-square"
     <a href="LICENSE">
         <img title="MIT License" alt="license" src="https://img.shields.io/badge/license-MIT-informational?style=flat-square">
     </a>
