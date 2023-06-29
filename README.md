@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/JustWhit3/my-scripts/blob/main/img/logo.svg" height=220></p>
 
-<h3 align="center">A collection of personal Python and Bash scripts</h3>
+<h3 align="center">A collection of personal scripts</h3>
 <p align="center">
     <img title="v1.3" alt="v1.3" src="https://img.shields.io/badge/version-v1.3-informational?style=flat-square"
     <a href="LICENSE">
@@ -27,6 +27,8 @@
   - [update.sh](#updatesh)
   - [setup_env.sh](#setupenvsh)
   - [include_tests.sh](#includetestssh)
+- [CMake](#cmake)
+  - [Qt_installer](#qtinstaller)
 - [Stargazers over time](#stargazers-over-time)
 
 ## Introduction
@@ -49,7 +51,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - `--message`: a flag to turn on/off the final message.
 - `--exception`: exclude a particular file from the final count.
 
-### [dirs_remover.py](https://github.com/JustWhit3/my-scripts/tree/main/python/dirs_remover)
+### [dirs_remover.py](https://github.com/JustWhit3/my-scripts/tree/main/scripts/python/dirs_remover)
 
 **Description**: script used to efficiently remove directories in parallel.
 
@@ -57,7 +59,7 @@ If you want to use one of my scripts please cite them with this [template citati
 
 - `--dirs`: contains path to dirs to be removed in parallel. Example: `"dir_1 dir_2 dir_3"`.
 
-### [send_whatsapp.py](https://github.com/JustWhit3/my-scripts/tree/main/python/send_whatsapp)
+### [send_whatsapp.py](https://github.com/JustWhit3/my-scripts/tree/main/scripts/python/send_whatsapp)
 
 **Description**: script used to send whatsapp messages using [Twilio API](https://www.twilio.com/go/twilio-brand-sales-it-1?utm_source=google&utm_medium=cpc&utm_term=twilio&utm_campaign=G_S_EMEA_Brand_Mature_ITA_IT_NV&cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&gclid=Cj0KCQjw1bqZBhDXARIsANTjCPJl_as8WIkOJAThL-NlAH7ZpkR94dFMUdvH64ISyvYz-e6N0HK5iroaAvQ2EALw_wcB). It can be easily used for bots.
 
@@ -66,13 +68,13 @@ If you want to use one of my scripts please cite them with this [template citati
 - `--number`: your personal telephone number (with prefix and +).
 - `--message`: the message to be sent.
 
-### [system_info.py](https://github.com/JustWhit3/my-scripts/tree/main/python/system_info)
+### [system_info.py](https://github.com/JustWhit3/my-scripts/tree/main/scripts/python/system_info)
 
 **Description**: script used to get current device information (RAM, CPU, etc...).
 
 ## Bash
 
-### [debug.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/debug.sh)
+### [debug.sh](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/debug.sh)
 
 **Description**: script used to debug C/C++ code with Valgrind and cppcheck.
 
@@ -86,7 +88,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - `$1`: debug option (cppcheck, memcheck, helgrind etc...).
 - `$2`: source file to be debugged.
 
-### [update.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/update.sh)
+### [update.sh](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/update.sh)
 
 **Description**: script used to update a repository without using git.
 
@@ -95,7 +97,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - [wget](https://www.gnu.org/software/wget/).
 - [unzip](https://linuxhint.com/unzip_command_-linux/).
 
-### [setup_env.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/setup_env.sh)
+### [setup_env.sh](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/setup_env.sh)
 
 **Description**: script used to create a virtual environment specifying Python version, environment name and requirements file. If it is the first time you run it, a virtual environment will be created and activated and prerequisites Python modules will be installed. From the second time on, the script will simply activate the virtual environment.
 > :warning: Launch it with `source setup_env.sh` since `source` command is used into the script.
@@ -110,7 +112,7 @@ If you want to use one of my scripts please cite them with this [template citati
 - `$2`: Virtual environment name.
 - `$3`: Requirements file.
 
-### [include_tests.sh](https://github.com/JustWhit3/my-scripts/blob/main/bash/include_tests.sh)
+### [include_tests.sh](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/include_tests.sh)
 
 **Description**: script used to launch include tests of a .h/.hpp c++ file. Basically it tests if the file can be included correctly in a generic program and if there are no inline errors in case of multiple inclusion from different files.
 
@@ -121,6 +123,12 @@ If you want to use one of my scripts please cite them with this [template citati
 **Arguments**:
 
 - `$1`: the input .h/.hpp file to be tested for include. Use complete path in string format.
+
+## CMake
+
+### [Qt installer](https://github.com/JustWhit3/my-scripts/blob/main/scripts/cmake/Qt_installer/CMakeLists.txt)
+
+**Description**: script used to install Qt. Default is Qt6 but the version can be changed from the script.
 
 ## Stargazers over time
 
