@@ -27,6 +27,7 @@
   - [update.sh](#updatesh)
   - [setup_env.sh](#setupenvsh)
   - [include_tests.sh](#includetestssh)
+  - [benchmarking.sh](#benchmarkingsh)
 - [CMake](#cmake)
   - [Qt_installer](#qtinstaller)
 - [Stargazers over time](#stargazers-over-time)
@@ -123,6 +124,14 @@ If you want to use one of my scripts please cite them with this [template citati
 **Arguments**:
 
 - `$1`: the input .h/.hpp file to be tested for include. Use complete path in string format.
+
+### [benchmarking.sh](https://github.com/JustWhit3/my-scripts/blob/main/scripts/bash/benchmarking.sh)
+
+**Description**: script used to optimize benchmark result precision. To use it open the script and add your benchmark command in the respective line, doesn't matter which command you prefer, it is not relevant. The script allows to set scaling governor to "precision", to disable Turboboost, to drop file cache and to disable address space randomization. All these operations will improve the precision of the result. At the end all the settings will be restored.
+
+**Arguments**:
+
+- `$1`: the number of benchmarking iterations.
 
 ## CMake
 
