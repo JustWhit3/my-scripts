@@ -49,6 +49,9 @@ def get_size( bytes, suffix = "B" ):
         if bytes < factor:
             return f"{bytes:.2f}{unit}{suffix}"
         bytes /= factor
+        
+def get_gpus():
+    return ["", ""], ["", ""]
 
 #############################################################
 #    Main
@@ -88,15 +91,21 @@ def main():
         [ "Physical cores", ENTRY( psutil.cpu_count( logical = False ) ) ],
         [ "Total cores", ENTRY( psutil.cpu_count( logical = True ) ) ],
         [ "Max frequency", ENTRY( f"{psutil.cpu_freq().max:.2f}Mhz" ) ],
-        
-        # GPU
-        # .. 
+        [ "Min frequency", ENTRY( f"{psutil.cpu_freq().min:.2f}Mhz" ) ],
         
         # System
         [ "", "" ],
         TITLE( "SYSTEM" ),
-        [ "Boot time", ENTRY( f"{bt().year}/{bt().month}/{bt().day} {bt().hour}:{bt().minute}:{bt().second}" ) ]
+        [ "Boot time", ENTRY( f"{bt().year}/{bt().month}/{bt().day} {bt().hour}:{bt().minute}:{bt().second}" ) ],
+        
+        # GPU
+        [ "", "" ],
+        TITLE( "GPUs" ),
     ]
+    
+    # Insert GPUs
+    for gpu, idx in zip( GPUtil.getGPUs(), range( 0, len( GPUtil.getGPUs() ) ) ):
+        platform_data.append( [ str( idx + 1 ), ENTRY( gpu.name ) ] )
     
     # Print table
     print( tabulate( platform_data, headers = "firstrow", tablefmt = "fancy_grid" ) )
