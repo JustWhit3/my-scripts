@@ -22,6 +22,7 @@
   - [dirs_remover.py](#dirs_removerpy)
   - [send_whatsapp.py](#send_whatsapppy)
   - [system_info.py](#system_infopy)
+  - [compute_lines.py](#compute_lines)
 - [Bash](#bash)
   - [debug.sh](#debugsh)
   - [update.sh](#updatesh)
@@ -72,6 +73,14 @@ If you want to use one of my scripts please cite them with this [template citati
 ### [system_info.py](https://github.com/JustWhit3/my-scripts/tree/main/scripts/python/system_info)
 
 **Description**: script used to get current device information (RAM, CPU, etc...).
+
+### [compute_lines.py](https://github.com/JustWhit3/my-scripts/tree/main/scripts/python/compute_lines)
+
+**Description**: Script used to count lines of code in files with specific extensions (`.cpp`, `.hpp`, `.py`, `.sh`, or custom extensions) within one or more directories, recursively.
+
+**Arguments**:
+- `directories`: a list of directories to scan. Example: `"dir_1 dir_2 dir_n"`.
+- `-e`, `--extensions`: file extensions to include in the count (optional). If not specified, the default is `['.cpp', '.hpp', '.py', '.sh']`. Example: `-e .cpp .py`.
 
 ## Bash
 
